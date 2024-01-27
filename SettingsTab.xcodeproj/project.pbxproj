@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		34CCF3672B30D03600C4E27F /* Learning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CCF3662B30D03600C4E27F /* Learning.swift */; };
+		34CCF3672B30D03600C4E27F /* SettingsTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CCF3662B30D03600C4E27F /* SettingsTab.swift */; };
 		34CCF3692B30D03600C4E27F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CCF3682B30D03600C4E27F /* ContentView.swift */; };
 		34CCF36B2B30D03700C4E27F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34CCF36A2B30D03700C4E27F /* Assets.xcassets */; };
 		34CCF36E2B30D03700C4E27F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34CCF36D2B30D03700C4E27F /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		34CCF3632B30D03600C4E27F /* Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Learning.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		34CCF3662B30D03600C4E27F /* Learning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learning.swift; sourceTree = "<group>"; };
+		34CCF3632B30D03600C4E27F /* SettingsTab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SettingsTab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34CCF3662B30D03600C4E27F /* SettingsTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTab.swift; sourceTree = "<group>"; };
 		34CCF3682B30D03600C4E27F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		34CCF36A2B30D03700C4E27F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34CCF36D2B30D03700C4E27F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -35,7 +35,7 @@
 		34CCF35A2B30D03600C4E27F = {
 			isa = PBXGroup;
 			children = (
-				34CCF3652B30D03600C4E27F /* Learning */,
+				34CCF3652B30D03600C4E27F /* SettingsTab */,
 				34CCF3642B30D03600C4E27F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +43,20 @@
 		34CCF3642B30D03600C4E27F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				34CCF3632B30D03600C4E27F /* Learning.app */,
+				34CCF3632B30D03600C4E27F /* SettingsTab.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		34CCF3652B30D03600C4E27F /* Learning */ = {
+		34CCF3652B30D03600C4E27F /* SettingsTab */ = {
 			isa = PBXGroup;
 			children = (
-				34CCF3662B30D03600C4E27F /* Learning.swift */,
+				34CCF3662B30D03600C4E27F /* SettingsTab.swift */,
 				34CCF3682B30D03600C4E27F /* ContentView.swift */,
 				34CCF36A2B30D03700C4E27F /* Assets.xcassets */,
 				34CCF36C2B30D03700C4E27F /* Preview Content */,
 			);
-			path = Learning;
+			path = SettingsTab;
 			sourceTree = "<group>";
 		};
 		34CCF36C2B30D03700C4E27F /* Preview Content */ = {
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		34CCF3622B30D03600C4E27F /* Learning */ = {
+		34CCF3622B30D03600C4E27F /* SettingsTab */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 34CCF3712B30D03700C4E27F /* Build configuration list for PBXNativeTarget "Learning" */;
+			buildConfigurationList = 34CCF3712B30D03700C4E27F /* Build configuration list for PBXNativeTarget "SettingsTab" */;
 			buildPhases = (
 				34CCF35F2B30D03600C4E27F /* Sources */,
 				34CCF3602B30D03600C4E27F /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = Learning;
+			name = SettingsTab;
 			productName = PlaygroundApp;
-			productReference = 34CCF3632B30D03600C4E27F /* Learning.app */;
+			productReference = 34CCF3632B30D03600C4E27F /* SettingsTab.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 34CCF35E2B30D03600C4E27F /* Build configuration list for PBXProject "Learning" */;
+			buildConfigurationList = 34CCF35E2B30D03600C4E27F /* Build configuration list for PBXProject "SettingsTab" */;
 			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				34CCF3622B30D03600C4E27F /* Learning */,
+				34CCF3622B30D03600C4E27F /* SettingsTab */,
 			);
 		};
 /* End PBXProject section */
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34CCF3692B30D03600C4E27F /* ContentView.swift in Sources */,
-				34CCF3672B30D03600C4E27F /* Learning.swift in Sources */,
+				34CCF3672B30D03600C4E27F /* SettingsTab.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,10 +271,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Learning/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SettingsTab/Preview Content\"";
 				DEVELOPMENT_TEAM = ZF72L2BG8M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SettingsTab;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -286,8 +287,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bojanstven.Learning;
+				MARKETING_VERSION = 0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bojanstven.SettingsTab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -302,10 +303,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Learning/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SettingsTab/Preview Content\"";
 				DEVELOPMENT_TEAM = ZF72L2BG8M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SettingsTab;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -317,8 +319,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bojanstven.Learning;
+				MARKETING_VERSION = 0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bojanstven.SettingsTab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -329,7 +331,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		34CCF35E2B30D03600C4E27F /* Build configuration list for PBXProject "Learning" */ = {
+		34CCF35E2B30D03600C4E27F /* Build configuration list for PBXProject "SettingsTab" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				34CCF36F2B30D03700C4E27F /* Debug */,
@@ -338,7 +340,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		34CCF3712B30D03700C4E27F /* Build configuration list for PBXNativeTarget "Learning" */ = {
+		34CCF3712B30D03700C4E27F /* Build configuration list for PBXNativeTarget "SettingsTab" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				34CCF3722B30D03700C4E27F /* Debug */,
